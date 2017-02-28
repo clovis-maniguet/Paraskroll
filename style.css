@@ -25,7 +25,7 @@ span {
 }
 
 .para-0 {
-  height: 80vh !important;
+  height: calc(100vh - 40px) !important;
 }
 
 .para-0 span h1 {
@@ -81,4 +81,11 @@ span {
 
 .para-4:nth-of-type(4n) {
   margin-right: 0;
+}
+
+.footer {
+  float: left;
+  height: 50vh;
+  width: 100%;
+  background: #2c3e50;
 }
